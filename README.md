@@ -31,6 +31,16 @@ export SET_PROXY_PORT=7890
 node -r global-proxy-setter your-app.js
 ```
 
+## Configuration
+
+If you need to change the default proxy port (1086), you can modify the start script in package.json:
+
+```bash
+"scripts": {
+  "start:proxy": "export NODE_PATH=$(npm root -g) && export SET_PROXY_PORT=7890 && node -r global-proxy-setter your-app.js"
+}
+```
+
 ## Important note
 
 If you face issues with `node -r global-proxy-setter` and receive a "MODULE_NOT_FOUND" error, it could be due to Node.js not checking your global `node_modules` directory.
