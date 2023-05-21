@@ -1,12 +1,19 @@
 {
   "name": "global-proxy-setter",
-  "version": "0.0.2",
-  "description": "",
+  "version": "0.0.3",
+  "description": "A utility to set global HTTP and HTTPS proxies",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "proxy",
+    "global",
+    "HTTP",
+    "HTTPS",
+    "environment",
+    "variables"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
