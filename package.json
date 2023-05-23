@@ -1,10 +1,15 @@
 {
   "name": "global-proxy-setter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A utility to set global HTTP and HTTPS proxies",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/sfyr111/global-proxy-setter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfyr111/global-proxy-setter.git"
   },
   "keywords": [
     "proxy",
